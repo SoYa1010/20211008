@@ -1,0 +1,405 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {
+    text-decoration: none;
+    color: #333;
+}
+html, body {
+    font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+header div {
+    width: 1280px;
+    height: 105px;
+    line-height: 105px;
+    margin: 0 auto;
+    /* background-color: bisque; */
+}
+header div::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header div a img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+header div h2 {
+    float: left;
+    font-size: 30px;
+}
+header div ul {
+    float: right;
+}
+header div ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+header div ul li a {
+    color: #d91226;
+    font-weight: bold;
+}
+header nav ul {
+    width: 1280px;
+    width: 920px;
+    height: 105px;
+    line-height: 105px;
+    margin: 0 auto;
+    text-align: center;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+header nav ul li a {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* **************************************** header end */
+.main_visual {
+    background: url('../img/coffee01.jpg') center center / cover no-repeat;
+    width: 100%;
+    height: 729px;
+    position: relative;
+}
+.main_visual div {
+    width: 1280px;
+    /* background-color: bisque; */
+    position: absolute;
+    top: 50%;
+    left: 320px;
+    transform: translateY(-50%);
+}
+.main_visual div p {
+    color: #fff;
+}
+.main_visual div p:first-of-type {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.main_visual div p:nth-of-type(2) {
+    font-size: 32px;
+}
+.main_visual h1 {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+.main_visual div p:last-of-type {
+    width: 273px;
+    height: 54px;
+    line-height: 54px;
+    background-color: #d91226;
+    text-align: center;
+    transition: .8s;
+}
+.main_visual div p a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .8s;
+}
+.main_visual div p:last-of-type:hover {
+    background-color: #fff;
+}
+.main_visual div p:hover a {
+    color: #333;
+}
+.fa-angle-left {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 45%;
+    bottom: -50%;
+}
+.fa-angle-right {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    right: 45%;
+    bottom: -50%;
+}
+/* **************************************** .main_visual end */
+.cont01 {
+    width: 1280px;
+    padding: 150px 0;
+    margin: 0 auto;
+}
+.cont01::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.cont01 div {
+    margin-bottom: 42px;
+}
+.cont01 div h2 {
+    text-align: left;
+    font-size: 32xp;
+}
+.cont01 div p:first-of-type {
+    float: left;
+}
+.cont01 div p:last-of-type {
+    float: right;
+}
+.cont01 div p:last-of-type a {
+    font-weight: bold;
+}
+.cont01 article {
+    width: 408px;
+    height: 517px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 28px;
+}
+.cont01 article:first-of-type {
+    background: url('../img/coffee02-1.jpg') center center / cover no-repeat;
+}
+.cont01 article:nth-of-type(2) {
+    background: url('../img/coffee03-1.jpg') center center / cover no-repeat;
+}
+.cont01 article:last-of-type {
+    background: url('../img/coffee04-1.jpg') center center / cover no-repeat;
+    margin-right: 0;
+}
+.cont01 article dl {
+    text-align: left;
+    margin: 28px;
+    color: #fff;
+    margin-top: 425px;
+}
+.cont01 article dl dt {
+    font-size: 32px;
+    font-weight: bold;
+}
+.cont01 article dl dt a {
+    color: #fff;
+}
+.cont01 article dl dd {
+    font-weight: bold;
+}
+.cont01 article:hover {
+    box-shadow: 0 0 20px #333;
+}
+/* **************************************** .cont01 end */
+.cont02 {
+    background: url('../img/coffee05.jpg') center center / cover no-repeat;
+    background-attachment: fixed;
+    padding-top: 140px;
+}
+.cont02 div {
+    width: 1280px;
+    height: 480px;
+    margin: 0 auto;
+    padding-bottom: 190px;
+}
+.cont02 div::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.cont02 div article:first-child {
+    float: left;
+    color: #000;
+}
+.cont02 div article:last-child {
+    float: right;
+    margin-top: 25px;
+}
+.cont02 div article h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+.cont02 div article p:first-of-type {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: 20px;
+}
+.cont02 div article p:nth-of-type(2) {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.cont02 div article p:last-of-type {
+    width: 126px;
+    height: 39px;
+    line-height: 39px;
+    background-color: #d91226;
+    text-align: center;
+    margin-top: 40px;
+    transition: .8s;
+}
+.cont02 div article p a {
+    color: #fff;
+    transition: .8s;
+}
+.cont02 div article p:last-of-type:hover {
+    background-color: #fff;
+}
+.cont02 div article p:hover a {
+    color: #000;
+}
+.cont02 div article img {
+    border: 10px solid #fff;
+    box-shadow: 10px 10px 30px #000;
+    transition: .5s;/*  */
+}
+.cont02 div article img:hover {/*  */
+    transform: rotateY(180deg);
+}
+/* **************************************** .cont02 end*/
+.cont03 {
+    padding: 150px 0;
+    background-color: #efefef;
+}
+.cont03 div {
+    width: 1280px;
+    height: 360px;
+    /* background-color: bisque; */
+    margin: 0 auto;
+    color: #fff;
+}
+.cont03 div::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.cont03 div article {
+    width: 359px;
+    height: 360px;
+    float: left;
+    margin-right: 9px;
+}
+.cont03 div article:first-child {
+    background: url('../img/coffee07.jpg') center center / cover no-repeat;
+}
+.cont03 div article:nth-child(2) {
+    background: url('../img/coffee08.jpg') center center / cover no-repeat;
+}
+.cont03 div article:last-child {
+    width: 544px;
+    height: 360px;
+    margin-right: 0;
+    overflow: hidden;
+}
+.cont03 div article dl {
+    padding: 48px 25px;
+}
+.cont03 div article dl dt {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 66px;
+}
+.cont03 div article dl dt a {
+    color: #fff;
+}
+.cont03 div article dl dd a {
+    color: #fff;
+}
+legend {
+    position: absolute;
+    left: -9999999px;
+}
+fieldset {
+    border: 0;
+}
+input[type="text"] {
+    width: 256px;
+    height: 48px;
+    line-height: 48px;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+    margin-top: 35px;
+    padding: 0 20px;
+    background: transparent;
+    margin: 45px 30px;
+    font-size: 18px;
+}
+input[type="text"]:focus {
+    outline: 2px solid #d91226;
+    border: 2px solid #d91226;
+    background-color: #fff;
+}
+
+.cont03 div article:last-child ul {
+    padding: 30px 0;
+}
+.cont03 div article:last-child ul li {
+    color: #a5a5a5;
+    font-weight: bold;
+    margin: 8px 25px;
+}
+.cont03 div article:last-child li a {
+    font-weight: bold;
+    color: #a5a5a5;
+}
+.cont03 div article:last-child .issue {
+    font-size: 20px;
+    padding: 13px 0;
+    margin-bottom: 29px;
+    color: #333;
+}
+.cont03 div article:last-child ul li span {
+    float: right;
+}
+.cont03 div article:last-child p {
+    background-color: #d91226;
+    width: 544px;
+    height: 149px;
+    line-height: 149px;
+    padding-left: 30px;
+    transition: .8s;
+}
+.cont03 div article:last-child p a {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.cont03 div article:last-child p:hover {
+    background-color: #000;
+}
+/* **************************************** .cont03 end */
+footer {
+    width: 100%;
+    background-color: #d91226;
+    text-align: center;
+    color: #b9b9b9;
+}
+footer ul {
+    width: 1280px;
+    height: 61px;
+    line-height: 61px;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+    margin: 0 auto;
+}
+footer ul li::after {
+    content: '｜';
+}
+footer ul li {
+    display: inline-block;
+}
+footer ul li a {
+    color: #b9b9b9;
+}
+footer dt {
+    padding-top: 40px;
+}
+footer dd:first-of-type {
+    padding-top: 27px;
+}
+footer dd:nth-of-type(2) {
+    padding-top: 10px;
+}
+footer dd:last-of-type {
+    padding-top: 20px;
+    padding-bottom: 38px;
+}

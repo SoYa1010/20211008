@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: #333;
+    text-align: center;
+}
+header nav > ul > li {
+    display: inline-block;
+    vertical-align: top;/* 인라인요소일때만 적용, 위로정렬 */
+    width: 200px;
+}
+nav > ul > li > a {
+    color: plum;
+}
+.depth02 {
+    background-color: #333;
+    display: none;
+}
+.depth02 li a {
+    color: #fff;
+}
+nav > ul > li .depth02 li {
+    line-height: 50px;
+}
+header > nav > ul > li:hover .depth02 {
+    display: block;
+}
+.depth02 li:hover a {
+    color: plum;
+}
